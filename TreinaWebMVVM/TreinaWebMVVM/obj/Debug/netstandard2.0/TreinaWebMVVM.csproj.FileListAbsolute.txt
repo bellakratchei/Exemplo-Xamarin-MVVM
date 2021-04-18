@@ -1,0 +1,15 @@
+C:\Users\Isa\Desktop\Trabalhos\TreinaWeb\TreinaWebMVVM\TreinaWebMVVM\TreinaWebMVVM\bin\Debug\netstandard2.0\TreinaWebMVVM.deps.json
+C:\Users\Isa\Desktop\Trabalhos\TreinaWeb\TreinaWebMVVM\TreinaWebMVVM\TreinaWebMVVM\bin\Debug\netstandard2.0\TreinaWebMVVM.dll
+C:\Users\Isa\Desktop\Trabalhos\TreinaWeb\TreinaWebMVVM\TreinaWebMVVM\TreinaWebMVVM\bin\Debug\netstandard2.0\ref\TreinaWebMVVM.dll
+C:\Users\Isa\Desktop\Trabalhos\TreinaWeb\TreinaWebMVVM\TreinaWebMVVM\TreinaWebMVVM\bin\Debug\netstandard2.0\TreinaWebMVVM.pdb
+C:\Users\Isa\Desktop\Trabalhos\TreinaWeb\TreinaWebMVVM\TreinaWebMVVM\TreinaWebMVVM\obj\Debug\netstandard2.0\TreinaWebMVVM.csprojAssemblyReference.cache
+C:\Users\Isa\Desktop\Trabalhos\TreinaWeb\TreinaWebMVVM\TreinaWebMVVM\TreinaWebMVVM\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Isa\Desktop\Trabalhos\TreinaWeb\TreinaWebMVVM\TreinaWebMVVM\TreinaWebMVVM\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Isa\Desktop\Trabalhos\TreinaWeb\TreinaWebMVVM\TreinaWebMVVM\TreinaWebMVVM\obj\Debug\netstandard2.0\TreinaWebMVVM.AssemblyInfoInputs.cache
+C:\Users\Isa\Desktop\Trabalhos\TreinaWeb\TreinaWebMVVM\TreinaWebMVVM\TreinaWebMVVM\obj\Debug\netstandard2.0\TreinaWebMVVM.AssemblyInfo.cs
+C:\Users\Isa\Desktop\Trabalhos\TreinaWeb\TreinaWebMVVM\TreinaWebMVVM\TreinaWebMVVM\obj\Debug\netstandard2.0\TreinaWebMVVM.csproj.CoreCompileInputs.cache
+C:\Users\Isa\Desktop\Trabalhos\TreinaWeb\TreinaWebMVVM\TreinaWebMVVM\TreinaWebMVVM\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Isa\Desktop\Trabalhos\TreinaWeb\TreinaWebMVVM\TreinaWebMVVM\TreinaWebMVVM\obj\Debug\netstandard2.0\TreinaWebMVVM.dll
+C:\Users\Isa\Desktop\Trabalhos\TreinaWeb\TreinaWebMVVM\TreinaWebMVVM\TreinaWebMVVM\obj\Debug\netstandard2.0\ref\TreinaWebMVVM.dll
+C:\Users\Isa\Desktop\Trabalhos\TreinaWeb\TreinaWebMVVM\TreinaWebMVVM\TreinaWebMVVM\obj\Debug\netstandard2.0\TreinaWebMVVM.pdb
+C:\Users\Isa\Desktop\Trabalhos\TreinaWeb\TreinaWebMVVM\TreinaWebMVVM\TreinaWebMVVM\obj\Debug\netstandard2.0\OutraPagina.xaml.g.cs

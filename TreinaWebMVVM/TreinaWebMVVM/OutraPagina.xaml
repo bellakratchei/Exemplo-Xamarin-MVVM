@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:TreinaWebMVVM.ViewModels"
+             x:Class="TreinaWebMVVM.OutraPagina">
+    <ContentPage.BindingContext>
+        <viewModels:OutraPaginaViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout Padding="10">
+            
+            <Label Text="Digite o CEP: " 
+                   HorizontalTextAlignment="Start"></Label>
+            <Entry x:Name="txbCep" />
+            <Button x:Name="btnProcessar" 
+                    Command="{Binding ProcessarCommand}" 
+                    CommandParameter="{Binding Source={x:Reference txbCep}, Path=Text}" 
+                    Text="Processar"/>
+            <Label x:Name="lblMensagem" 
+                   Text="{Binding Mensagem}"
+                   IsVisible="{Binding DeveExibirMensagem}"
+                   HorizontalTextAlignment="Center"
+                   FontSize="15" 
+                   HeightRequest="100"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

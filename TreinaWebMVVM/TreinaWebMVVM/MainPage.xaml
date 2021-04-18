@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TreinaWebMVVM.MainPage">
+
+    <ContentPage.Content>
+        <StackLayout Padding="10" VerticalOptions="CenterAndExpand">
+            
+            <Label x:Name="lblTexto" 
+                   HorizontalTextAlignment="Center"
+                   Text="TreinaWeb Cursos" 
+                   HeightRequest="100">                
+            </Label>
+            <Label Text="Tamanho do texto:" 
+                   HorizontalTextAlignment="Start">                
+            </Label>
+            <Slider x:Name="sliTamanhoTexto" 
+                    BindingContext="{x:Reference lblTexto}"
+                    Value="{Binding Scale, Mode=TwoWay}"
+                    Minimum="0" 
+                    Maximum="10">                
+            </Slider>
+            <Label x:Name="lblTamanhoTexto" 
+                   BindingContext="{x:Reference sliTamanhoTexto}"
+                   HorizontalTextAlignment="Center" 
+                   Text="{Binding Value, StringFormat='x{0:F1}'}">                
+            </Label>
+            <Label Text="Rotação do texto" 
+                   HorizontalTextAlignment="Start">                
+            </Label>
+            <Slider x:Name="sliRotacaoTexto" 
+                    BindingContext="{x:Reference lblTexto}"
+                    Value="{Binding Rotation, Mode=OneWayToSource}"
+                    Minimum="0" 
+                    Maximum="360">                
+            </Slider>
+            <Label x:Name="lblRotacaoTexto" 
+                   BindingContext="{x:Reference sliRotacaoTexto}"
+                   Text="{Binding Value, StringFormat='{0:F0}°'}"
+                   HorizontalTextAlignment="Center">                
+            </Label>
+            <Entry x:Name="txbNome"></Entry>
+            <Entry x:Name="txbOutroNome"
+                   BindingContext="{x:Reference txbNome}"
+                   Text="{Binding Text, Mode=TwoWay}">                
+            </Entry>
+            <Button x:Name="btnNavegarOutraPagina"
+                    Text="Ir para outra página"
+                    Clicked="btnNavegarOutraPagina_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+        
+</ContentPage>
